@@ -73,6 +73,8 @@ cmake-build-*/
 
 # IntelliJ
 out/
+.idea/*
+test-task.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -105,5 +107,9 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+
+#maven
+mvnw
+mvnw.cmd
 
 # End of https://www.gitignore.io/api/java,jetbrains
